@@ -1,0 +1,20 @@
+body {
+        background-image: url("pexels-cátia-matos-1072179.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-shadow: 25px;
+        
+     }
+.navbar {
+    background: rgb(21,45,113);
+    background: linear-gradient(18deg, rgba(21,45,113,1) 14%, rgba(20,228,125,1) 93%);
+}
+.jumbotron {
+    padding-top: 100px;
+    margin-top: 100px;
+}
+
+#Knowlage {
+    color: white;
+}
+
