@@ -9,63 +9,150 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"/>
+    <link href="incognito-2231825_960_720-1.png" rel="shortcut icon"/>
   </head>
-<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0" cz-shortcut-listen="true">
- <nav class="navbar navbar-light" style="font-family: Roboto;">
-  <div class="container-fluid">
-    <a class="navbar-brand" style="color: rgb(255, 255, 255)">Navbar</a>
-    <form class="d-flex">
-      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success" type="submit" style="background-color: rgb(255, 255, 255);">Search</button>
-    </form>
-  </div>
-</nav>
- 
 
-<div data-aos="flip-left">
-  <section class="Jumbotron text-center text-white">
-      <h1 class="display-4">Hallo</h1>
-      <h2 class="lead">I'm Tri Anung Nugroho</h2>
-      <h4>Knowlage Infrastuktur and Techology</h4>
-  </section>
-</div>
+  <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0" cz-shortcut-listen="true">
+  
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-lg fixed-top">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav" style="font-family:monospace">
+            <a class="nav-link" href="#Home"><b>Home</b></a>
+            <a class="nav-link active" href="#Aboutme"><b>About</b></a>
+            <a class="nav-link" href="#Knowlage"><b>Knowlage</b></a>
+            <a class="nav-link active" href="#Experice"><b>Experice</b></a>
+            <a class="nav-link" href="#Project"><b>Project</b></a>
+            <a class="nav-link active" href="#contact"><b>Contact</b></a>
+          </div> 
+        </div>
+      </div>
+    </nav>
 
-  <section id="Knowlage">
+    <!--Intro -->
+    <section class="Jumbotron text-center text-white" style="background-image: url(pexels-cátia-matos-1072179.jpg); background-size:cover; padding-top: 75px; padding-bottom: 250px;" id="Home">
+        <img src="Profil.jpg" alt="Pasfoto" class="rounded-circle" width="200" height="180">  
+          <h1 class="display-10">Hallo</h1>
+          <h2 class="lead" style="font-style: oblique; "> I'm Tri Anung Nugroho</h2>
+          <h1>Enthusiast For <span class="auto-type" style="color:rgb(25, 245, 13) ;"></span></h1>
+            <div class="Icon">
+              <a href="https://www.instagram.com" target="_blank">
+                <i class="bi bi-instagram" style="color:white ;"></i>
+              </a> 
+              <a href="https://www.linkedin.com/in/tri-anung-nugroho" target="_blank">
+                <i class="bi bi-linkedin" style="color:white ;"></i>
+              </a>
+              <a href="" target="_blank" style="color:white ;">
+                <i class="bi bi-github"></i>
+              </a>
+            </div>
+    </section>
+
+    <!--About -->
+    <section id="Aboutme" style="padding-top:75px; padding-bottom:100px; background-color:gainsboro;">
+      <div class="container" style="margin-left: 20px;">
+        <div class="row">
+          <div class="col">
+            <h2 style="font-family:cursive;"><b><i><u>About Me</b></i></u></h2>
+            <p style="margin-left:20px; margin-top:10px;">Lorem ipsum, dolor sit amet <mark style="background-color:yellow; border-radius:10px;">consectetur</mark>adipisicing elit. Cumque fugit quisquam distinctio aperiam a ea, fuga, commodi id repudiandae magnam aliquam enim vero at asperiores sequi odit reprehenderit fugiat laborum!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Knowlage-->
+    <section id="Knowlage" style="padding-top:70px; background-color:#9af28c;">
+      <div class="row">
+        <div class="col">
+          <h2 style="padding-bottom:25px; padding-left:30px; font-family:cursive;"><b><i><u>Knowlage</b></i></u></h2>
+        </div>
+      </div>
+      <div class="container" style="position:sticky; padding-left: 3.5cm; padding-bottom: 25px;">
+        <div class="row">
+            <!--Container Card  -->
+            <div class="card-1-md" style="width: 20rem; height: 21rem;">
+              <div data-aos="fade-up-right" 
+                   data-aos-duration="2000"
+                   data-aos-delay="100">
+                <img src="6500401.jpg" class="card-img-top" alt="sample">
+                <div class="card-body" style="background-color: rgb(188, 191, 190); height: 10rem;">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>  
+              </div>
+            </div>
+            <div class="card-2-md" style="width: 20rem; height: 21rem;">
+              <div data-aos="fade-down"
+                    data-aos-duration="3000"
+                    data-aos-delay="100">
+                <img src="593205.jpg" class="card-img-top" alt="sample">
+                <div class="card-body" style="background-color: rgb(188, 191, 190); height: 10rem;">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div> 
+            </div>
+            <div class="card-3-md" style="width: 20rem; height: 21rem">
+              <div data-aos="fade-down-left"
+                    data-aos-duration="2000"
+                    data-aos-delay="100">
+                <img src="3818937.jpg" class="card-img-top" alt="sample">
+                <div class="card-body" style="background-color: rgb(188, 191, 190); height: 10rem;">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Experice -->
+      <div id="Experice" style="padding-top:65px; padding-bottom: 350px;">
+        <h2 style="padding-left: 30px; padding-top: 20px; font-family:cursive"><b><i><u>Experice</b></i></u></h2>
+    </section>
+
+    <!-- Project -->
+    <section id="Project" style="padding-bottom:350px; padding-top:40px">
+      <h2 style="padding-left:30px; padding-top:20px; font-family:cursive"><b><i><u>Project</b></i></u></h2>
+    </section>
+    
+    <!-- contact -->
+    <section id="contact" style="padding-bottom:350px; background-color:gainsboro;">
+      <h2 style="padding-bottom:15px; padding-left:30px; font-family:cursive ;" ><b><i><u>Contact</b></i></u></h2>
       <div class="container">
-        <div class="row text-left">
-          <div class="col"></div>
-          <h1>Knowlage</h1> 
+        <div class="icon">
+        </div>
+      </div>  
+    </section>
+    <!-- Footer -->
+    <footer class="Container text-white">
+      <div class="row align-itms-start">
+        <div class="d-flex justify-content-between" style="font-style:italic;">
+          <p>@Copy right</p>
+          <a href="https://www.fortinet.com/" target="_blank">
+            <i class="bi bi-emoji-heart-eyes-fill" style="color:blueviolet;"></i>
+          </a>
+          <p style="color:black;">All right 2022</p>
         </div>
       </div>
-      <div class="col-md-3 mb-3">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse consequatur alias velit odit, consequuntur non tempora impedit distinctio veniam quia voluptatem cumque adipisci, possimus officia hic? Veritatis quos dolor dignissimos.</p>
-        </div>
-      </div>
-      <div class="col-md-3 mb-3">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ab illum numquam illo sed repudiandae!</p>
-        </div>
-      </div>
-      <div class="col-md-3 mb-3">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ab illum numquam illo sed repudiandae!</p>
-        </div>
-      </div>
-  </section>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="Script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: ["Infrastructure", "Design", "Cyber Security"],
+        typeSpeed: 100,
+        backSpeed: 200,
+        loop: true,
+      })
+    </script>
 
-  </section>
-  <footer class="text-center" style="background-color:chartreuse">
-    <p class="text-white"> Power By Tri Anung Nugroho <a href="https://github.com/Anung21"> <i class="bi bi-cursor-fill"></i></a></p>
-  </footer>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <script src="Script.js"></script>
-</body>
+
+  </body>
 </html>
 
