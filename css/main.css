@@ -1,6 +1,7 @@
 body {
     background-repeat: no-repeat;
     background-size: cover;
+    box-sizing: border-box;
     text-shadow: 25px;
     min-height: 2500px;
 }
